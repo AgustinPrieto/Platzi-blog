@@ -4,24 +4,22 @@ body{
 	font-family: sans-serif;
 }
 
-header{
-	background: #273B47;
+nav{
+	margin-left: auto;
 }
 
-.container{
-	display: flex;
-	justify-content: center;
-	max-width: 1000px;
+li{
+	border-right: 1px solid #fff;
 }
 
 .header{
+	background: #273B47;
+}
+
+.header-2{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-}
-
-nav{
-	margin-left: auto;
 }
 
 .menu{
@@ -59,6 +57,53 @@ nav{
 	border-right: none;
 }
 
-li{
-	border-right: 1px solid #fff;
+.container{
+	display: flex;
+	justify-content: center;
+	max-width: 1000px;
+	margin: auto;
+}
+
+.portada{
+	padding-top: 2.7em;
+	background: #EFEFEF;
+}
+
+.relative-post{
+	position: relative;
+}
+
+.portada a {
+	text-decoration: none;
+	color: #515151;
+
+}
+
+.img-portada{
+	max-width: 1000px;
+	max-height: 560px;
+}
+
+.principal{
+
+}
+
+.info-post{
+	background: rgba(255,255,255,0.8);
+	padding: 2em 4em;
+	position: absolute;
+	left: 410px;
+	bottom: 115px;
+}
+
+.footer-post{
+	display: flex;
+}
+.img-author{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}
+.author{
+	margin-right: 30px;
 }
