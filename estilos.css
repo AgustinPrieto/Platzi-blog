@@ -80,8 +80,8 @@ li{
 }
 
 .img-portada{
-	max-width: 1000px;
-	max-height: 560px;
+	width: 1000px;
+	height: 560px;
 }
 
 .principal{
@@ -92,7 +92,7 @@ li{
 	background: rgba(255,255,255,0.8);
 	padding: 2em 4em;
 	position: absolute;
-	left: 410px;
+	left: 330px;
 	bottom: 115px;
 }
 
@@ -106,4 +106,44 @@ li{
 }
 .author{
 	margin-right: 30px;
+}
+
+						/*Acá comienzan los post en filas*/
+
+.articulos{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 1000px;
+	margin: auto;
+
+}
+
+.mini-post{
+	width: 320px;
+	height: 400px;
+	/*margin-bottom: 1em;*/
+	margin-top: 1.2em;
+	display: flex;
+	flex-direction: column;
+}
+.mini-post a{
+	text-decoration: none;
+}
+.mini-post img{
+	width: 320px;
+	height: 215px;
+}
+.mini-post h2{
+	color: #515151;
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 1em;
+}
+.mini-post header{
+	border-bottom: 1px solid grey;
+}
+.mini-post footer{
+	display: flex;
+	justify-content: space-between;
 }
