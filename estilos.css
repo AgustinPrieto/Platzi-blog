@@ -42,6 +42,10 @@ li{
 	font-size: 1em;
 }
 
+.menu li a:hover{
+	border-top: 4px solid #7DCD40;
+}
+
 .login{
 	font-size: 15px;
 	font-weight: bold;
@@ -51,6 +55,11 @@ li{
 	border-radius: 5px;
 	padding: 10px 14px 8px 14px;
 	margin-right: .7em;
+}
+
+.login:hover{
+	background: #7DCD40;
+	border-bottom: 3px solid #67B030;
 }
 
 .menu li:last-child{
